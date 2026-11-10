@@ -1,44 +1,65 @@
-# Herdtrude: one window for all your coding agents
+<p align="center"><a href="https://herdtrude.app"><img src="assets/icon.png" alt="Herdtrude icon" width="120"></a></p>
+<h1 align="center">Herdtrude</h1>
+<p align="center"><strong>A Mac app for your coding agents</strong></p>
+<p align="center"><a href="https://herdtrude.app">Website</a> · <a href="https://api.herdtrude.app/download/latest/mac">Download for Mac</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=bug_report.yml">Report a bug</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=feature_request.yml">Request a feature</a></p>
+<p align="center"><img src="https://img.shields.io/badge/platform-macOS-7FB7BE?style=flat-square" alt="platform: macOS"> <img src="https://img.shields.io/badge/price-%2449%20once-7FB7BE?style=flat-square" alt="price: $49 once"></p>
+<p align="center"><img src="assets/hero.png" alt="The Herdtrude window with every agent session in the sidebar" width="100%"></p>
 
-[Herdtrude](https://herdtrude.app) is a Mac app for people who run coding agents. It shows every session on all your machines in one window and tells you which agent needs you. It costs $49, paid once, and covers every Mac you own.
+Herdtrude is a Mac app for people who run coding agents such as Claude Code or Codex. It shows every session on all your machines in one window and tells you which agent needs you. The price is $49, paid once, and it covers every Mac you own.
 
-This repository has no source code. It is the product's public page on GitHub, and bug reports and feature requests go in its Issues tab.
+## Features
 
-## What it does
+### Every session as a sheep
 
-- Herdtrude draws each session as a sheep, and the sheep's face shows the state: working, thinking, needs you, done, error or idle.
-- When an agent stops to ask, a menu-bar sheep, a corner pet with Allow and Deny, an alert that names the session and an optional sound tell you which one.
-- You can add a Mac or a server over SSH. Its sessions join the sidebar, grouped by machine and project, and keep running when you quit the app.
-- Quota for every Claude, Codex, Cursor and Antigravity account sits side by side with its reset time, and you can switch between accounts in one click.
-- Insights show tokens per agent, per machine and per day, what they would cost at API prices, and a burn rate that tells you whether the week's quota will last.
-- Files, line numbers, URLs and commit hashes in agent output become links. Hover to peek, or Command-click to open your editor at the line.
-- Each agent can get its own git worktree, and a command-line tool with --json output lets you script the herd.
+Each session is drawn as a sheep whose face shows its state: working, thinking, needs you, done, error or idle.
 
-## Requirements
+### Needs-you alerts
 
-You need a Mac. Any server or second Mac you add must be reachable over SSH.
+When an agent stops to ask, a menu-bar sheep, a corner pet with Allow and Deny, and an alert that names the session tell you which one. An optional sound can chime too.
 
-## Get it
+### All your machines
 
-Buy and download Herdtrude for Mac from the Herdtrude site. The price is $49 once, for every Mac you own.
+Add a Mac or a server over SSH and its sessions join your sidebar, grouped by machine and project. They keep running when you quit the app.
+
+### Quota across accounts
+
+Quota for every Claude, Codex, Cursor and Antigravity account sits side by side with its reset time. You can keep many accounts per agent and switch with one click.
+
+### Insights on token use
+
+Tokens per agent, per machine and per day appear with what they would cost at API prices. A burn rate shows whether the week's quota will last.
+
+### Clickable terminal output
+
+Files, line numbers, URLs and commit hashes in agent output become links. Hover to peek, or Command-click to open your editor at the line.
+
+<p align="center"><img src="assets/shot-1.png" alt="The six sheep faces: working, thinking, needs you, done, error and idle" width="100%"></p>
+
+<p align="center"><img src="assets/shot-2.png" alt="The menu-bar sheep and the corner pet with Allow and Deny" width="100%"></p>
+
+<p align="center"><img src="assets/shot-3.png" alt="Quota for every agent account side by side" width="100%"></p>
+
+## Download
+
+Buy Herdtrude for Mac at [herdtrude.app](https://herdtrude.app). The $49 price is paid once and covers every Mac you own.
 
 ## Questions
 
 ### Which coding agents does Herdtrude work with?
 
-Claude Code, Codex, Cursor, Antigravity and OpenCode. The quota view covers Claude, Codex, Cursor and Antigravity accounts.
+Herdtrude works with Claude Code, Codex, Cursor, Antigravity and OpenCode.
 
-### Can Herdtrude watch agents on my other machines?
-
-Yes. You add a Mac or a server over SSH, and pairing installs the SSH keys.
-
-### Is there an iPhone app?
+### Is there a Herdtrude iPhone app?
 
 Not yet. An iPhone app that pairs by QR code is listed as coming soon.
 
-### What is Herdtrude built on?
+### Can I script Herdtrude from a shell?
 
-Herdtrude is built on Herdr, an open-source engine. Herdr is the upstream project.
+Yes. Herdtrude includes a command-line tool with `--json` output.
+
+## Feedback
+
+Please [open an issue](https://github.com/deeflect/herdtrude/issues) for a bug or a feature request. I read every one. A useful bug report gives the app version, the system version and the steps that lead to the bug.
 
 ## Made by
 
