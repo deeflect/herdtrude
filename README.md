@@ -1,11 +1,22 @@
 <p align="center"><a href="https://herdtrude.app"><img src="assets/icon.png" alt="Herdtrude icon" width="120"></a></p>
 <h1 align="center">Herdtrude</h1>
-<p align="center"><strong>A Mac app for your coding agents</strong></p>
-<p align="center"><a href="https://herdtrude.app">Website</a> · <a href="https://api.herdtrude.app/download/latest/mac">Download for Mac</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=bug_report.yml">Report a bug</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=feature_request.yml">Request a feature</a></p>
-<p align="center"><img src="https://img.shields.io/badge/platform-macOS-7FB7BE?style=flat-square" alt="platform: macOS"> <img src="https://img.shields.io/badge/price-%2449%20once-7FB7BE?style=flat-square" alt="price: $49 once"></p>
+<p align="center"><strong>Every coding agent, on every machine, in one window</strong></p>
+<p align="center"><a href="https://herdtrude.app">Website</a> · <a href="https://github.com/deeflect/herdtrude/releases/latest">Download Beta (macOS / Linux)</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=bug_report.yml">Report a bug</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=feature_request.yml">Request a feature</a></p>
+<p align="center"><img src="https://img.shields.io/badge/platform-macOS%20%7C%20Linux-7FB7BE?style=flat-square" alt="platform: macOS | Linux"> <img src="https://img.shields.io/badge/status-free%20beta-7FB7BE?style=flat-square" alt="status: free beta"> <img src="https://img.shields.io/badge/source-AGPL--3.0%20coming%20soon-7FB7BE?style=flat-square" alt="source: AGPL-3.0 coming soon"></p>
 <p align="center"><img src="assets/hero.png" alt="The Herdtrude window with every agent session in the sidebar" width="100%"></p>
 
-Herdtrude is a Mac app for people who run coding agents such as Claude Code or Codex. It shows every session on all your machines in one window and tells you which agent needs you. The price is $49, paid once, and it covers every Mac you own.
+Herdtrude is a desktop app for people who run coding agents such as Claude Code, Codex, Cursor, Antigravity or OpenCode across multiple terminals and machines. It shows every session in one window, alerts you when an agent pauses on an approval prompt, and tracks quota across accounts.
+
+> **Beta & Open Source:** Herdtrude is **free during beta** with no licence key required. Source code is being cleaned up and will be published in this repository under **AGPL-3.0** soon.
+
+## Download
+
+Grab the latest signed beta installer directly from **[GitHub Releases](https://github.com/deeflect/herdtrude/releases/latest)**:
+
+- **macOS (Apple silicon):** `Herdtrude_0.2.0_aarch64.dmg`
+- **Linux (x64 .deb):** `Herdtrude_0.2.0_amd64.deb`
+
+In-app auto-updates pull signed updates from GitHub Releases.
 
 ## Features
 
@@ -39,10 +50,6 @@ Files, line numbers, URLs and commit hashes in agent output become links. Hover 
 
 <p align="center"><img src="assets/shot-3.png" alt="Quota for every agent account side by side" width="100%"></p>
 
-## Download
-
-Buy Herdtrude for Mac at [herdtrude.app](https://herdtrude.app). The $49 price is paid once and covers every Mac you own.
-
 ## Questions
 
 ### Which coding agents does Herdtrude work with?
@@ -57,10 +64,14 @@ Not yet. An iPhone app that pairs by QR code is listed as coming soon.
 
 Yes. Herdtrude includes a command-line tool with `--json` output.
 
+### When is the source code going public?
+
+Soon—this repository will host the full **AGPL-3.0** source once the release cleanup finishes. Until then, signed beta binaries and issue tracking live right here.
+
 ## Feedback
 
 Please [open an issue](https://github.com/deeflect/herdtrude/issues) for a bug or a feature request. I read every one. A useful bug report gives the app version, the system version and the steps that lead to the bug.
 
 ## Made by
 
-Herdtrude is made by [Dee (deeflect)](https://deeflect.com), a one-person studio.
+Herdtrude is made by [Dmitry (Dee) Kargaev](https://www.deeflect.com) (`deeflect`).
