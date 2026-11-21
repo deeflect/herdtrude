@@ -13,8 +13,8 @@ Herdtrude is a desktop app for people who run coding agents such as Claude Code,
 
 Grab the latest signed beta installer directly from **[GitHub Releases](https://github.com/deeflect/herdtrude/releases/latest)**:
 
-- **macOS (Apple silicon):** `Herdtrude_0.2.0_aarch64.dmg`
-- **Linux (x64 .deb):** `Herdtrude_0.2.0_amd64.deb`
+- **macOS (Apple silicon):** `Herdtrude_0.2.1_aarch64.dmg`
+- **Linux (x64 .deb):** `Herdtrude_0.2.1_amd64.deb`
 
 In-app auto-updates pull signed updates from GitHub Releases.
 
