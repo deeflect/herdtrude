@@ -1,7 +1,7 @@
 <p align="center"><a href="https://herdtrude.app"><img src="assets/icon.png" alt="Herdtrude icon" width="120"></a></p>
 <h1 align="center">Herdtrude</h1>
 <p align="center"><strong>Every coding agent, on every machine, in one window</strong></p>
-<p align="center"><a href="https://herdtrude.app">Website</a> · <a href="https://github.com/deeflect/herdtrude/releases/latest">Download Beta (macOS / Linux)</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=bug_report.yml">Report a bug</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=feature_request.yml">Request a feature</a></p>
+<p align="center"><a href="https://herdtrude.app">Website</a> · <a href="https://youtu.be/cTN3b94vSqA">Watch 46s demo</a> · <a href="https://github.com/deeflect/herdtrude/releases/latest">Download Beta (macOS / Linux)</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=bug_report.yml">Report a bug</a> · <a href="https://github.com/deeflect/herdtrude/issues/new?template=feature_request.yml">Request a feature</a></p>
 <p align="center"><img src="https://img.shields.io/badge/platform-macOS%20%7C%20Linux-7FB7BE?style=flat-square" alt="platform: macOS | Linux"> <img src="https://img.shields.io/badge/status-free%20beta-7FB7BE?style=flat-square" alt="status: free beta"> <img src="https://img.shields.io/badge/source-AGPL--3.0%20coming%20soon-7FB7BE?style=flat-square" alt="source: AGPL-3.0 coming soon"></p>
 <p align="center"><img src="assets/hero.png" alt="The Herdtrude window with every agent session in the sidebar" width="100%"></p>
 
